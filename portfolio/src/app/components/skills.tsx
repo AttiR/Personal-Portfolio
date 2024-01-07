@@ -8,15 +8,20 @@ const Skills = () => {
   return (
     <section>
       <div>
-        <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+        <h3 className="text-3xl py-1 dark:text-white">Skills / Services I offer</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          Since the beginning of my journey as a freelance designer and developer, I have done remote work for
-          <span className="text-teal-500"> agencies </span>
-          consulted for <span className="text-teal-500">startups </span>
-          and collaborated with talented people to create digital products for both business and consumer use.
+        Experienced Software Engineer adept at SaaS product development using
+          <span className="text-teal-500"> Python, Dash Plotly, React, SQL, Firebase </span>
+          and <span className="text-teal-500"> Azure. </span>
+          Specialized in crafting end-to-end solutions, from planning to deployment.
+          Proficient Data Analyst in
+          <span className="text-teal-500"> Power BI </span>, transforming data into actionable insights.
+          Mobile Network RAN PoC Analyst with a knack for optimizing connectivity trials.
+          Proactive and innovative tech enthusiast.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          I offer from a wide range of services, including brand design, programming, and teaching.
+        I provide a diverse set of services, encompassing web development,
+        data analytics using Power BI, and technical consulting for effective data management and database solutions
         </p>
       </div>
       <div className="lg:flex gap-10">
