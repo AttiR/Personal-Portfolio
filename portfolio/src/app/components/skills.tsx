@@ -25,25 +25,26 @@ const Skills = () => {
         </p>
       </div>
       <div className="lg:flex gap-10">
-        {/* Design Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image src={design} width={100} height={100} alt="design image"/>
+          <Image className="mx-auto" src={design} width={100} height={100} alt="design image"/>
           <h3 className="text-lg font-medium pt-8 pb-2  ">
-            Beautiful Designs
+            Full Stack Developer
           </h3>
           <p className="py-2">
-            Creating elegant designs suited for your needs following core design theory.
+          Crafting sophisticated web solutions tailored to your requirements, employing a foundation in core design principles.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">Indesign</p>
+          <h4 className="py-4 text-teal-600">Technologies I Use</h4>
+          <p className="text-gray-800 py-1">HTML</p>
+          <p className="text-gray-800 py-1">Tailwind CSS, Material UI</p>
+          <p className="text-gray-800 py-1">JavaScript, TypeScript</p>
+          <p className="text-gray-800 py-1">React, .Next</p>
+          <p className="text-gray-800 py-1">Node, Flask, PHP</p>
+          <p className="text-gray-800 py-1">SQL, MongoDB, Azure</p>
         </div>
 
         {/* Code Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image src={code} width={100} height={100} alt="code image"/>
+          <Image className="mx-auto" src={code} width={100} height={100} alt="code image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Code your dream project
           </h3>
@@ -59,7 +60,7 @@ const Skills = () => {
 
         {/* Consulting Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image src={consulting} width={100} height={100} alt="consulting image"/>
+          <Image className="mx-auto" src={consulting} width={100} height={100} alt="consulting image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
           <p className="py-2">
             Are you interested in feedback for your current project? I can give you tips and tricks to level it up.
