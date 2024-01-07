@@ -12,22 +12,30 @@ const Header = () => {
   return (
     <section className="min-h-screen">
       <nav className="py-10 mb-12 flex justify-between dark:text-white">
-        <h1 className="font-burtons text-xl">Atti Rehman</h1>
+        <h1 className="font-burtons text-xl font-bold">Atti Rehman</h1>
         <ul className="flex items-center">
           <li>
             <a
-              className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
               href="#"
             >
-              Home
+              SKILLS
             </a>
           </li>
           <li>
             <a
-              className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
               href="#"
             >
-              Skills
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-3 border-none rounded-md ml-8 font-bold text-lg tracking-wider"
+              href="#"
+            >
+              CONTACT
             </a>
           </li>
         </ul>
@@ -39,7 +47,7 @@ const Header = () => {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Software Enginner | Microsoft Certified: Power BI Data Analyst
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl tracking-wider">
                 Experienced Software Engineer skilled in SaaS development and a Microsoft Certified Power BI Data Analyst. Proactive in optimizing network connectivity trials.
             </p>
             <div className="text-5xl flex justify-center gap-12 py-3 text-gray-600 dark:text-gray-400">
