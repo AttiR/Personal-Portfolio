@@ -20,7 +20,7 @@ const Projects = () => {
                 </div>
 
 
-                <p className="py-8">
+                <p className="py-8 text-gray-800">
                     Crafting sophisticated web solutions tailored to your requirements, employing a foundation in core design principles.
                 </p>
 
@@ -42,7 +42,7 @@ const Projects = () => {
                     <Image className="mx-auto" src={data} width={800} height={900} alt="web image" />
                 </div>
 
-                <p className="py-8">
+                <p className="py-8 text-gray-800">
                     Crafting sophisticated web solutions tailored to your requirements, employing a foundation in core design principles.
                 </p>
 
@@ -65,7 +65,7 @@ const Projects = () => {
                 </div>
 
 
-                <p className="py-8">
+                <p className="py-8 text-gray-800">
                     Crafting sophisticated web solutions tailored to your requirements, employing a foundation in core design principles.
                 </p>
 

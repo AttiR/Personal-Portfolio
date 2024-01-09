@@ -30,7 +30,7 @@ const Skills = () => {
           <h3 className="text-lg font-medium pt-8 pb-2  ">
             Full Stack Developer
           </h3>
-          <p className="py-2">
+          <p className="py-2 text-gray-800">
           Crafting sophisticated web solutions tailored to your requirements, employing a foundation in core design principles.
           </p>
           <h4 className="py-4 text-teal-600">Technologies I Use</h4>
@@ -48,7 +48,7 @@ const Skills = () => {
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Microsoft Certified: Power BI Data Analyst
           </h3>
-          <p className="py-2">
+          <p className="py-2 text-gray-800">
           Offering comprehensive data analysis and visualization services for informed decision-making.
           </p>
           <h4 className="py-4 text-teal-600">Technologies I Use</h4>
@@ -63,7 +63,7 @@ const Skills = () => {
         <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
           <Image className="mx-auto" src={devops} width={150} height={150} alt="devops image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">DevOps</h3>
-          <p className="py-2">
+          <p className="py-2 text-gray-800">
 
           Versatile DevOps practitioner with expertise in GitHub, CI/CD servers for automated workflows, and server-side application deployment and integration.
           </p>
