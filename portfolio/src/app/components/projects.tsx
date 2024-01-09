@@ -4,28 +4,28 @@ import web from '../../../public/design.png';
 import data from '../../../public/data.png';
 import devops from '../../../public/Devops.png';
 
-const Skills = () => {
+const Projects = () => {
   return (
     <section>
       <div>
-        <h3 className="text-3xl py-3 dark:text-white">Skills / Services I offer</h3>
-        <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200 tracking-wider">
+        <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
         Experienced Software Engineer adept at SaaS product development using
-          <span className="text-teal-500 tracking-wider"> Python, Dash Plotly, React, SQL, Firebase </span>
-          and <span className="text-teal-500 tracking-wider"> Azure. </span>
+          <span className="text-teal-500"> Python, Dash Plotly, React, SQL, Firebase </span>
+          and <span className="text-teal-500"> Azure. </span>
           Specialized in crafting end-to-end solutions, from planning to deployment.
           Proficient Data Analyst in
-          <span className="text-teal-500 tracking-wider"> Power BI </span>, transforming data into actionable insights.
+          <span className="text-teal-500"> Power BI </span>, transforming data into actionable insights.
           Mobile Network RAN PoC Analyst with a knack for optimizing connectivity trials.
           Proactive and innovative tech enthusiast.
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 tracking-wider">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
         I provide a diverse set of services, encompassing web development,
-        data analytics using Power BI, and technical consulting for effective data management and database solutions.
+        data analytics using Power BI, and technical consulting for effective data management and database solutions
         </p>
       </div>
       <div className="lg:flex gap-10">
-        <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           <Image className="mx-auto" src={web} width={100} height={100} alt="web image"/>
           <h3 className="text-lg font-medium pt-8 pb-2  ">
             Full Stack Developer
@@ -43,7 +43,7 @@ const Skills = () => {
         </div>
 
         {/* Code Section */}
-        <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           <Image className="mx-auto" src={data} width={150} height={150} alt="data image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Microsoft Certified: Power BI Data Analyst
@@ -60,7 +60,7 @@ const Skills = () => {
         </div>
 
         {/* Consulting Section */}
-        <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           <Image className="mx-auto" src={devops} width={150} height={150} alt="devops image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">DevOps</h3>
           <p className="py-2">
@@ -78,4 +78,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Projects;
