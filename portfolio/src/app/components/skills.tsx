@@ -44,7 +44,7 @@ const Skills = () => {
 
         {/* Code Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
-          <Image className="mx-auto" src={data} width={150} height={150} alt="data image"/>
+          <Image className="mx-auto" src={data} width={100} height={100} alt="data image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Microsoft Certified: Power BI Data Analyst
           </h3>

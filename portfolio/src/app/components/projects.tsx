@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import project1 from '../../../public/project1.png';
+import project1 from '../../../public/project13.png';
 import data from '../../../public/data.png';
 import devops from '../../../public/Devops.png';
 
@@ -16,7 +16,7 @@ const Projects = () => {
 
                 {/* Image takes full width of the div */}
                 <div className="w-full">
-                    <Image className="mx-auto" src={data} width={800} height={900} alt="web image" />
+                    <Image className="mx-auto" src={data} width={800} height={600} alt="web image" />
                 </div>
 
 
