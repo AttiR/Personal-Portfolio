@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
 import design from '../../../public/design.png';
-import code from '../../../public/code.png';
-import consulting from '../../../public/consulting.png';
+import data from '../../../public/data.png';
+import devops from '../../../public/Devops.png';
 
 const Skills = () => {
   return (
@@ -37,39 +37,41 @@ const Skills = () => {
           <p className="text-gray-800 py-1">HTML</p>
           <p className="text-gray-800 py-1">Tailwind CSS, Material UI</p>
           <p className="text-gray-800 py-1">JavaScript, TypeScript</p>
-          <p className="text-gray-800 py-1">React, .Next</p>
+          <p className="text-gray-800 py-1">React, Next.js</p>
           <p className="text-gray-800 py-1">Node, Flask, PHP</p>
           <p className="text-gray-800 py-1">SQL, MongoDB, Azure</p>
         </div>
 
         {/* Code Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image className="mx-auto" src={code} width={100} height={100} alt="code image"/>
+          <Image className="mx-auto" src={data} width={150} height={150} alt="code image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">
-            Code your dream project
+            Microsoft Certified: Power BI Data Analyst
           </h3>
           <p className="py-2">
-            Do you have an idea for your next great website? Lets make it a reality.
+          Offering comprehensive data analysis and visualization services for informed decision-making.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">Indesign</p>
+          <h4 className="py-4 text-teal-600">Technologies I Use</h4>
+          <p className="text-gray-800 py-1">Python</p>
+          <p className="text-gray-800 py-1">SQL</p>
+          <p className="text-gray-800 py-1">Pandas, Dash, Plotly, Seaborn</p>
+          <p className="text-gray-800 py-1">Power BI</p>
+          <p className="text-gray-800 py-1">Excell</p>
         </div>
 
         {/* Consulting Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image className="mx-auto" src={consulting} width={100} height={100} alt="consulting image"/>
-          <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+          <Image className="mx-auto" src={devops} width={150} height={150} alt="consulting image"/>
+          <h3 className="text-lg font-medium pt-8 pb-2 ">DevOps</h3>
           <p className="py-2">
-            Are you interested in feedback for your current project? I can give you tips and tricks to level it up.
+
+          Versatile DevOps practitioner with expertise in GitHub, CI/CD servers for automated workflows, and server-side application deployment and integration.
           </p>
-          <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
-          <p className="text-gray-800 py-1">Illustrator</p>
-          <p className="text-gray-800 py-1">Figma</p>
-          <p className="text-gray-800 py-1">Indesign</p>
+          <h4 className="py-4 text-teal-600">Technologies I Use</h4>
+          <p className="text-gray-800 py-1">GitHub</p>
+          <p className="text-gray-800 py-1">CI/CD</p>
+          <p className="text-gray-800 py-1">Digital Ocean</p>
+          <p className="text-gray-800 py-1">Firebase</p>
         </div>
       </div>
     </section>
