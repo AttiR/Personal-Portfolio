@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import design from '../../../public/design.png';
+import web from '../../../public/design.png';
 import data from '../../../public/data.png';
 import devops from '../../../public/Devops.png';
 
@@ -26,7 +26,7 @@ const Skills = () => {
       </div>
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image className="mx-auto" src={design} width={100} height={100} alt="design image"/>
+          <Image className="mx-auto" src={web} width={100} height={100} alt="web image"/>
           <h3 className="text-lg font-medium pt-8 pb-2  ">
             Full Stack Developer
           </h3>
@@ -44,7 +44,7 @@ const Skills = () => {
 
         {/* Code Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image className="mx-auto" src={data} width={150} height={150} alt="code image"/>
+          <Image className="mx-auto" src={data} width={150} height={150} alt="data image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">
             Microsoft Certified: Power BI Data Analyst
           </h3>
@@ -61,7 +61,7 @@ const Skills = () => {
 
         {/* Consulting Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-          <Image className="mx-auto" src={devops} width={150} height={150} alt="consulting image"/>
+          <Image className="mx-auto" src={devops} width={150} height={150} alt="devops image"/>
           <h3 className="text-lg font-medium pt-8 pb-2 ">DevOps</h3>
           <p className="py-2">
 
