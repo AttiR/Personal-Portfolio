@@ -27,7 +27,7 @@ const Skills = () => {
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
           <Image className="mx-auto" src={web} width={100} height={100} alt="web image"/>
-          <h3 className="text-lg font-medium pt-8 pb-2  ">
+          <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800">
             Full Stack Developer
           </h3>
           <p className="py-2 text-gray-800">
@@ -45,7 +45,7 @@ const Skills = () => {
         {/* Code Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
           <Image className="mx-auto" src={data} width={100} height={100} alt="data image"/>
-          <h3 className="text-lg font-medium pt-8 pb-2 ">
+          <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800">
             Microsoft Certified: Power BI Data Analyst
           </h3>
           <p className="py-2 text-gray-800">
@@ -62,7 +62,7 @@ const Skills = () => {
         {/* Consulting Section */}
         <div className="text-center shadow-lg p-10 rounded-xl my-20 dark:bg-white flex-1">
           <Image className="mx-auto" src={devops} width={150} height={150} alt="devops image"/>
-          <h3 className="text-lg font-medium pt-8 pb-2 ">DevOps</h3>
+          <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800">DevOps</h3>
           <p className="py-2 text-gray-800">
 
           Versatile DevOps practitioner with expertise in GitHub, CI/CD servers for automated workflows, and server-side application deployment and integration.
