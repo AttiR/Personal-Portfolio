@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import dev1 from '../../../public/dev2.png';
+import dev1 from '../../../public/output.png';
 import data from '../../../public/data.png';
 import devops from '../../../public/Devops.png';
 
@@ -16,12 +16,12 @@ const Projects = () => {
 
                 {/* Image takes full width of the div */}
                 <div className="w-full">
-                    <Image className="mx-auto" src={data} width={800} height={700} alt="web image" />
+                    <Image className="mx-auto" src={dev1} width={800} height={700} alt="web image" />
                 </div>
 
 
                 <p className="py-8 text-gray-800">
-                    EchatCode is a web coding discussion forum where individuals can share, ask questions, and provide comments on others coding challenges.
+                    EchatCode is a web coding discussion forum where individuals can share, ask questions, and provide comments.
                 </p>
 
                 {/* Buttons with equal width using flex-1 */}
